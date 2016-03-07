@@ -1,2 +1,2 @@
-# CenterSync
+# CentralSync
 Centralized Synchronization Abstract 
