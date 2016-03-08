@@ -1,0 +1,13 @@
+prefix=@PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: csync 
+Description: Centralized Synchronization in C++
+Version: @VERSION@
+
+Requires: zeromq yaml-cpp protobuf boost 
+Requires.private: 
+Libs: -L${libdir} -lcsync
+Cflags: -I${includedir} @CFLAGS@
